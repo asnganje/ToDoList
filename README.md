@@ -7,8 +7,6 @@ CSS
 JavaScript
 Wepack
 
-Live Demo Link
-
 Getting Started
 Make sure you have node installed on your local machine.
 
