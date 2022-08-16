@@ -5,7 +5,7 @@ const toDo = [
     index: 0,
   },
   {
-    description: 'was the dishes',
+    description: 'wash the dishes',
     completed: 'false',
     index: 1,
   },
