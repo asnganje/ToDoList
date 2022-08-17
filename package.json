@@ -4,6 +4,7 @@
   "description": "> A to do list javascript app buit using webpack and es6.",
   "main": "index.js",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
