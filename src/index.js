@@ -1,11 +1,12 @@
 import './style.css';
-import * as todoList from './todolist.js';
-import * as addRemove from './add-remove.js';
-import * as storage from './storage.js';
 
-const tasks = storage.getTasksFromStorage();
+import addTodo from '../modules/addTodo.js';
+import { form, clear } from '../modules/domElement.js';
+import getTodos from '../modules/getTodos.js';
+import clearTodo from '../modules/clearTodo.js';
 
-todoList.TodoListItems(tasks);
-addRemove.TodoListAdd(tasks);
-addRemove.TodoListEdit(tasks);
-addRemove.TodoListDelete(tasks);
+getTodos();
+
+form.addEventListener('submit', (e) => addTodo(e));
+
+clear.addEventListener('click', clearTodo);

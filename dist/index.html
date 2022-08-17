@@ -4,33 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
     />
-    <title>Add Remove Webpack To DO List</title>
+    <title>Todo App</title>
+    
   <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
   <body>
-    <h1>To Do List</h1>
-    <div id="to-do-list">
-      <div class="header">
-        <a>Today's To Do</a>
-        <i class="fa-solid fa-arrows-rotate"></i>
-      </div>
-      <div class="line"></div>
-      <div class="new-task">
-        <textarea
-          name="new-item"
-          id="new-item"
-          class="text-area"
-          placeholder="Add to Your list"
-          required
-        ></textarea>
-        <i class="fa-solid fa-arrow-left"></i>
-      </div>
-      <div class="line"></div>
-      <div class="list-container"></div>
-      <div class="clear">Clear All Completed</div>
-    </div>
+    <main>
+      <section class="list-div">
+        <div class="title">
+          <h1>Today's To Do</h1>
+          <span><i class="fas fa-sync"></i></span>
+        </div>
+        <div class="input-text">
+          <form id="form">
+            <input
+              type="text"
+              name="tasks"
+              placeholder="Add to your list"
+              class="insert-text"
+            />
+            <i id="icon" class="fas fa-hand-point-left"></i>
+          </form>
+        </div>
+        <ul class="list-container">
+          
+        </ul>
+        <div class="clear-elements">
+          <button class="clear-btn" type="submit">Clear all completed</button>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
   </body>
 </html>
