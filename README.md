@@ -11,7 +11,7 @@
 - JavaScript
 - Wepack
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://asnganje.github.io/ToDoList/dist/index.html)
 
